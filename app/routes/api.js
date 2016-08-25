@@ -29,9 +29,9 @@ module.exports = function(app, express) {
 				res.send(err);
 				return;
 			}
-			res.json(users)
+			res.json(users);
 		});
-	})
+	});
 
 	return api;
 
